@@ -32,7 +32,7 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss", "_mixins.scss"
             ],
             "scripts": []
           },
@@ -91,7 +91,7 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss", "_mixins.scss"
             ],
             "scripts": []
           }

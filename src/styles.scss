@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    // background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Farben und Winkel anpassen */
+}
+
+.wrap {
+    max-width: 1920px; /* Set the maximum width */
+    margin: 0 auto;    /* Center the container */
+    width: 100%;       /* Make sure the container takes full width on smaller screens */
+    padding: 0 20px;   /* Optional: Add padding for better spacing on smaller screens */
+  }
