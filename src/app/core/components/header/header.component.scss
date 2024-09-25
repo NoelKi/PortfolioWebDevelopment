@@ -1,0 +1,14 @@
+@import './../../../_mixins.scss';
+
+header {
+    height: 92px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    @include dFlex();
+    padding: 0px 120px;
+    color: #E15544;
+
+}
