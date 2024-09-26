@@ -35,10 +35,15 @@ header {
   > a {
     text-decoration: none;
     color: $color-orange;
+    font-weight: 500;
     font-size: 22px;
     text-align: center;
     white-space: nowrap;
     padding-left: 20px;
+    &:hover {
+      color: $color-turquoise;
+      text-decoration: underline;
+    }
   }
 }
 
