@@ -1,3 +1,49 @@
+@import "./../../styles.scss";
+
+h2 {
+  color: $color-turquoise;
+  font-size: 82px;
+  margin: 0;
+}
+
+h3 {
+  color: $color-turquoise;
+  font-size: 54px;
+  margin: 0;
+}
+
 .above-the-fold {
   height: 100vh;
+  width: 100%;
+  max-width: 1920px;
+  padding-top: 92px;
+}
+
+.contact-me-btn {
+  background-color: transparent;
+  border: 1px solid $color-turquoise;
+  padding: 10px 20px;
+  color: $color-orange;
+  font-size: 16px;
+  width: 164px;
+  height: 50px;
+  position: relative;
+  top: 200px;
+  rotate: 270deg;
+}
+
+.name-container {
+  position: relative;
+  top: 500px;
+  left: 20px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between; /* Abstand zwischen Text und Bild */
+  align-items: center; /* Zentriert Text und Bild vertikal */
+  max-width: 1440px; /* Begrenzung auf maximal 1440px */
+  width: 100%; /* Nimmt die volle Breite bis 1440px ein */
+  margin: 0 auto; /* Zentriert die ganze Section horizontal */
+  padding: 0 20px; /* Optional: Innenabstand zu den Bildschirmrändern */
 }
