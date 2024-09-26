@@ -1,11 +1,47 @@
-*{
-    margin: 0;
-    // background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Farben und Winkel anpassen */
+@font-face {
+  font-family: "handjet";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./../public/assets/fonts/Handjet,Roboto_Mono/Handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf")
+    format("truetype");
 }
 
-.wrap {
-    max-width: 1920px; /* Set the maximum width */
-    margin: 0 auto;    /* Center the container */
-    width: 100%;       /* Make sure the container takes full width on smaller screens */
-    padding: 0 20px;   /* Optional: Add padding for better spacing on smaller screens */
-  }
+@font-face {
+  font-family: "robotoMono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./../public/assets/fonts/Handjet,Roboto_Mono/Roboto_Mono/RobotoMono-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+$color-orange: #e15544;
+$color-turquoise: #02f4bf;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1920px;
+  // background: linear-gradient(55.22deg, #0b042d 80%, #0b042d 20%);
+}
+
+.main-container {
+  max-width: 1920px;
+  margin: 0 auto; /* zentriert den Inhalt */
+  padding: 0 20px; /* fügt etwas Abstand an den Seiten hinzu */
+}
+
+.font-handjet {
+  font-family: "handjet", sans-serif;
+}
+
+.font-robotomono {
+  font-family: "robotoMono", sans-serif;
+}
