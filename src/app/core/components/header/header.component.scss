@@ -1,14 +1,70 @@
-@import './../../../_mixins.scss';
+@import "./../../../../_mixins.scss";
+@import "./../../../../styles.scss";
 
 header {
-    height: 92px;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    @include dFlex();
-    padding: 0px 120px;
-    color: #E15544;
+  height: 92px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
 
+.wrap {
+  width: 100%;
+  height: 100%;
+  @include dFlex();
+}
+
+.main-header-container {
+  background: linear-gradient(#0b042d 80%, #0b042d 20%);
+  width: 1440px;
+  height: 92px;
+  margin: 0 auto;
+  @include dFlex($jc: space-between);
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.header-left {
+  @include dFlex();
+  height: 44px;
+  width: 636px;
+  color: $color-orange;
+  > a {
+    text-decoration: none;
+    color: $color-orange;
+    font-size: 22px;
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 20px;
+  }
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: $color-orange;
+  &:hover {
+    color: $color-turquoise;
+  }
+}
+
+p {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.btn-container {
+  width: 100px;
+  @include dFlex();
 }
