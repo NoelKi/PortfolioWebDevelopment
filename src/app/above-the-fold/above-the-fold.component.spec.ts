@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { AboveTheFoldComponent } from './above-the-fold.component';
 
 describe('AboveTheFoldComponent', () => {
@@ -8,9 +7,8 @@ describe('AboveTheFoldComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AboveTheFoldComponent]
-    })
-    .compileComponents();
+      imports: [AboveTheFoldComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(AboveTheFoldComponent);
     component = fixture.componentInstance;
